@@ -1,0 +1,44 @@
+body {
+    background-color: #DFD0B8;
+    text-align: justify;
+    margin: 2% 5%;
+}
+
+h1 {
+    color: #222831;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #222831;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    color: #222831;
+    font-size: 30px;
+}
+
+p {
+    color: #393E46;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'roboto';
+}
+
+.large-p {
+    font-size: 25px;
+}
+
+ul, ol, a {
+    color: #393E46;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'roboto';
+}
+
+.judul {
+    font-size: 35px;
+}
