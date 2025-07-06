@@ -1,0 +1,27 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 10px;
+}
+
+#minuman td {
+    border: 1.5px dashed black;
+}
+
+
+th {
+    background-color: aqua;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #cccccc;
+}
+
+tr:hover {
+    background-color: aquamarine;
+}
