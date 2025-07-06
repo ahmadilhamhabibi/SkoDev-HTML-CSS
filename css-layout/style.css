@@ -1,0 +1,40 @@
+#header {
+    background-color: blue;
+    color: aliceblue;
+    display: block;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    padding: 5% 0%;
+    margin: 1% 5%;
+}
+
+#sidebar {
+    display: inline-block;
+    background-color: orange;
+    width: 10%;
+    text-align: center;
+    margin-left: 5%;
+    padding: 3% 2%;
+    margin-top: 0%;
+}
+
+#main {
+    display: inline-block;
+    background-color: yellow;
+    width: 75%;
+    text-align: left;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+#footer {
+    display: block;
+    width: 90%;
+    background-color: gray;
+    color: white;
+    padding: 2% 0%;
+    margin: 2% 5%;
+    text-align: center;
+}
