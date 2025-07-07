@@ -1,0 +1,46 @@
+.box {
+    display: inline-block;
+    position: relative;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+    top: 50px;
+    margin-bottom: 60px;
+}
+
+.label {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    font-size: 20px;
+}
+
+.sale {
+    position: absolute;
+    top: 75px;
+    left: 35px
+}
+
+nav {
+    background-color: bisque;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 10px;
+}
+
+.img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
