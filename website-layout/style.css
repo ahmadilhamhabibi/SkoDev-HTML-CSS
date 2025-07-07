@@ -1,0 +1,81 @@
+/* Reset some default */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #77C6F5;
+  color: #fff;
+}
+
+/* Main container */
+body > * {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1F2A33;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.logo {
+  background: #CFF09E;
+  color: black;
+  padding: 1rem 1rem;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* Main */
+main {
+  background: #1F2A33;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+main p {
+    font-size: 2rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #CFF09E;
+  color: black;
+  padding: 2rem 0;
+  font-weight: bold;
+  width: 30%; /* 3 cards per row */
+  text-align: center;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background: #1F2A33;
+  color: white;
+  padding: 1rem;
+
+  gap: 1rem;
+}
+
